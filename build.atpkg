@@ -1,0 +1,12 @@
+(package
+  :name "SwiftyGPIO"
+  
+  :tasks {
+    :build {
+      :name "SwiftyGPIO"
+      :tool "atllbuild"
+      :sources ["Sources/**.swift"]
+      :output-type "static-library"
+      }
+   }
+)
