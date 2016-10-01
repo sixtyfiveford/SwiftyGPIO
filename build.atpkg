@@ -2,7 +2,7 @@
   :name "SwiftyGPIO"
   
   :tasks {
-    :build {
+    :default {
       :name "SwiftyGPIO"
       :tool "atllbuild"
       :sources ["Sources/**.swift"]
